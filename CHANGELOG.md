@@ -18,6 +18,8 @@ The category for each release must be one of (in order):
 
 ### [2026.08-r1] - 2026.08-r1
 
+- 2026.08.20 : fix : broken link in [`doc/upgrade-mysql80-to84.md`] ... link not pointing to script
+- 2026.08.20 : fix : broken link in [`doc/upgrade-mysql80-to84.md`] ... link not pointing to env dir
 * 2026.08.05 : doc : added release-specific documentation `docs/upgrade-mysql80-to84.md` for `mysql/upgrades/upgrade-mysql80-to84.ps1`
 * 2026.08.05 : ref : refactored upgrade script to read server inventory from an external CSV configuration file instead of hardcoded values
 * 2026.08.05 : ref : support upgrading multiple Azure MySQL Flexible Servers in a single execution

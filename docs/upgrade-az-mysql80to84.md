@@ -1,6 +1,6 @@
 # docs : upgrade-az-mysql80to84.md
 
-Documentation for Azure MySQL Flexible Database Server major version upgrades script [`upgrade-az-mysql80to84.ps1`](../upgrade-az-mysql80to84.ps1).
+Documentation for Azure MySQL Flexible Database Server major version upgrades script [`upgrade-az-mysql80to84.ps1`](../mysql/upgrades/upgrade-az-mysql80to84.ps1).
 
 Upgrade one or more servers by reading a CSV configuration file. 
 
@@ -25,7 +25,7 @@ Upgrade one or more servers by reading a CSV configuration file.
 
 ## Configuration
 
-The script reads servers from a CSV file in [env directory](../env/)
+The script reads servers from a CSV file in [env directory](../mysql/upgrades/env/)
 
 Example of how CSV should be formatted:
 

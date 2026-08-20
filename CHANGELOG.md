@@ -11,12 +11,14 @@ The category for each release must be one of (in order):
 
 ## To-do
 - upgrade should only change tier if it's burstable
+- fix : broken link in [`doc/upgrade-mysql80-to84.md`] ... link not pointing to script
+- fix : broken link in [`doc/upgrade-mysql80-to84.md`] ... link not pointing to env dir
 
 ## Released
 
 ### [2026.08-r1] - 2026.08-r1
 
-* 2026.08.05 : doc : added release-specific documentation [`docs/upgrade-mysql80-to84.md`] for [`mysql/upgrades/upgrade-mysql80-to84.ps1`]
+* 2026.08.05 : doc : added release-specific documentation `docs/upgrade-mysql80-to84.md` for `mysql/upgrades/upgrade-mysql80-to84.ps1`
 * 2026.08.05 : ref : refactored upgrade script to read server inventory from an external CSV configuration file instead of hardcoded values
 * 2026.08.05 : ref : support upgrading multiple Azure MySQL Flexible Servers in a single execution
 * 2026.08.05 : ref : added configurable target MySQL version parameter
@@ -27,6 +29,6 @@ The category for each release must be one of (in order):
 * 2026.08.05 : fix : improved error handling to continue processing remaining servers when an individual server upgrade fails
 * 2026.08.05 : fix : added validation to ensure servers are in the Ready state before and after tier changes and upgrades
 * 2026.08.05 : doc : added project README with prerequisites, configuration, usage examples, and repository structure
-- 2026.08.05 : ref : renamed [`mysql/upgrades/upgrade-mysql.ps1`] to [`mysql/upgrades/upgrade-mysql80-to84.ps1`] to reflect the supported upgrade path
+- 2026.08.05 : ref : renamed `mysql/upgrades/upgrade-mysql.ps1` to `mysql/upgrades/upgrade-mysql80-to84.ps1` to reflect the supported upgrade path
 * 2026.07.30 : doc : track changes to project [`CHANGELOG.md`](CHANGELOG.md)
-* 2026.07.21 : add : initial Azure MySQL Flexible Server major upgrade automation [`upgrade-az-myql.ps1`]
+* 2026.07.21 : add : initial Azure MySQL Flexible Server major upgrade automation `upgrade-az-myql.ps1`
